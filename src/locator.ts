@@ -1,8 +1,4 @@
 
-export function locator1(coordinates: {longitude: number; latitude: number}) {
-    return "a";
-}
-
 const char = (char: string) => (offset: number) => String.fromCharCode(char.charCodeAt(0) + offset)
 const easten = (longitude: number) => (longitude + 180) % 360
 const northen = (longitude: number) => (longitude + 90) % 180

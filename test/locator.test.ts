@@ -21,7 +21,7 @@ describe("locator function", () => {
   })
 })
 describe("locator function", () => {
-  it("should return 'JJ00AA'", () => {
+  it("should return 'AJ00AA'", () => {
     expect(locator({longitude: 180.0, latitude: 0.0})).toEqual("AJ00AA")
   })
 })
